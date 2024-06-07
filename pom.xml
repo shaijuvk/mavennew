@@ -80,6 +80,13 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+    <groupId>jdk.tools</groupId>
+    <artifactId>jdk.tools</artifactId>
+    <version>17</version>
+    <scope>system</scope>
+    <systemPath>${java.home}/lib/tools.jar</systemPath>
+</dependency>
 	</dependencies>
 
 	<!-- <build>
