@@ -40,6 +40,15 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+ <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven_compiler_plugin</artifactId>
+    <version>3.8.1</version>
+    <configuration>
+        <compilerArgs>
+            <arg>-J--add-exports</arg>
+            <arg>jdk.tools/jdk.tools=ALL-UNNAMED</arg>
+        </compilerArgs>
+    </configuration>
 			</plugin>
 		</plugins>
 	</build>
