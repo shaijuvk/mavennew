@@ -35,7 +35,7 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
- <groupId>org.apache.maven.plugins</groupId>
+<!--  <groupId>org.apache.maven.plugins</groupId> -->
     <artifactId>maven_compiler_plugin</artifactId>
     <version>3.8.1</version>
     <configuration>
